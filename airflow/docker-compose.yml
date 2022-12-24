@@ -1,0 +1,87 @@
+# Ce fichier specifie les services requis dont on a besoin pour faire fonctionner Airflow. 
+# Le plus important est le planificateur, le serveur web, metadatabase (postegresql) et le job airflow-init qui initialise la base de données.
+version: '3.4'
+# définit un bloc de configuration commun utilisé par plusieurs services.
+x-common:
+  # définit l'alias '*common' qui peut être utilisé pour inclure le bloc de config commun dans un service
+  &common
+  # specifie l'image docker à utiliser pour les services qui utilisent ce bloc de config.
+  image: apache/airflow:2.3.0
+  # indique le user sous lequel le contenur doit être exécuté. L'utilisateur est défini en utilisant la variable d'environnement "AIRFLOW_UID"
+  user: "${AIRFLOW_UID}:0"
+  # indique le fichier d'environnement à charger pour le serivce
+  env_file: 
+    - .env
+  # définit les volumes à monter dans le conteneur. Plusieurs répertoires sont montés afin que les fichiers DAGs, les logs et les plugins personnalisés soient accessibles à Airflow
+  volumes:
+    - ./dags:/opt/airflow/dags
+    - ./logs:/opt/airflow/logs
+    - ./plugins:/opt/airflow/plugins
+    - /var/run/docker.sock:/var/run/docker.sock
+
+# définit un bloc de dépendance entre les services utilisant le même alias
+x-depends-on:
+  &depends-on
+  depends_on:
+    postgres:
+      condition: service_healthy
+    airflow-init:
+      condition: service_completed_successfully
+
+services:
+  # définit un service PostgreSQL utilisé comme base de données par Airflow. Ce service expose le porte 5432 du conteneur sur le port 5434 de la machine hôte 
+  # et utilise un healthcheck pour vérifier que la base de données est prête à être utilisée. 
+  postgres:
+    image: postgres:13
+    container_name: postgres
+    ports:
+      - "5434:5432"
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "airflow"]
+      interval: 5s
+      retries: 5
+    env_file:
+      - .env
+  
+  # définit le service de planificateur d'Airflow. Ce service utilise le bloc de config commun et les dépendances. 
+  # Il exécute la commande 'scheduler' et expose le porte 8793 du conteneur sur le port 8793 de la machine hôte
+  scheduler:
+    <<: *common
+    <<: *depends-on
+    container_name: airflow-scheduler
+    command: scheduler
+    restart: on-failure
+    ports:
+      - "8793:8793"
+
+  # définit le service de serveur Web d'Airflow. Utilise également le bloc de config commun et les dépendances. 
+  # Il exécute la commande 'webserver' et expose le porte 8080 du conteneur sur le porte 8080 de la machine d'h$ote. Il utilise également une healthcheck pour vérifier que le serveur web est opérationnel
+  webserver:
+    <<: *common
+    <<: *depends-on
+    container_name: airflow-webserver
+    restart: always
+    command: webserver
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 30s
+      retries: 5
+  
+  # utilisé pour initialiser les répertoires de fichiers DAGs, de logs et de plugins avant le démarrage du service de serveur web d'airflow. 
+  # L'entrée 'entrypoint' spécifie que le conteneur doit exécuter l'interpréteur de commandes  Bash lorsqu'il démarre, tandis que la commande 'command' indique les commandes à exécuter dans le conteneur. 
+  airflow-init:
+    <<: *common
+    container_name: airflow-init
+    entrypoint: /bin/bash
+    # il crée les repertoires 
+    # change le propriétaire de ces répertoires en utilisant la variable d'environnement 'AIRFLOW_UID'
+    # exécute l'entrée par défaut d'Airflow en exécutant la commande '/entrypoint airflow version'
+    command:
+      - -c
+      - |
+        mkdir -p /sources/logs /sources/dags /sources/plugins
+        chown -R "${AIRFLOW_UID}:0" /sources/{logs,dags,plugins}
+        exec /entrypoint airflow version
