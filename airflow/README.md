@@ -19,6 +19,18 @@ Cette approche nous permet d'exécuter des tâches indépendantes en parallèle,
 En outre, nous pouvons diviser un pipeline de données en plusieurs tâches plus petites. Si une tâche échoue, nous pouvons 
 seulement réexécuter la tâche qui a échoué et les tâches en aval, au lieu de réexécuter le flux de travail complet.
 
+## Les composantes principales
+
+Airflow __scheduler__ - le "coeur" d'Airflow, qui analyse les DAGs, vérifie les intervalles programmés et transmet les tâches aux travailleurs
+
+Airflow __worker__ - reprend les tâches et effectue réellement le travail.
+
+Airflow __webserver__ - fournit l'interface utilisateur principale pour visualiser et surveiller les DAGs et leurs résultats.
+
+
+![Logo](https://miro.medium.com/max/4800/1*z3MNHDV9eTTLGikvucGEKw.webp)
+
+
 ## Demarrer Airflow
 
 Pour démarrer les services d'Airflow, il faut se placer dans le repertoir du docker-compose puis : 
