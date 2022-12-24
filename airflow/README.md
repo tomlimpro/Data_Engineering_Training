@@ -37,7 +37,9 @@ Exemple Executors :
 * `SequentialExecutor` : peut exécuter une seule tâche à un moment donné. Il ne peut pas exécuter des tâches en parallèle. Il est utile dans les situations de test ou de débogage.
 * `LocalExecutor` : permet le parallélisme et l'hyperthreading. Il est idéal pour exécuter Airflow sur une machine locale ou un seul nœud.
 * `CeleryExecutor` : Cet exécuteur est le moyen privilégié d'exécuter un cluster Airflow distribué.
-* `KubernetesExecutor` : ppelle l'API Kubernetes pour créer des pods temporaires pour chacune des instances de tâches à exécuter.
+* `KubernetesExecutor` : appelle l'API Kubernetes pour créer des pods temporaires pour chacune des instances de tâches à exécuter.
+
+Voir le lien pour les executors : https://airflow.apache.org/docs/apache-airflow/stable/executor/index.html#executor-types
 
 
 
