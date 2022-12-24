@@ -40,3 +40,8 @@ Pour démarrer les services d'Airflow, il faut se placer dans le repertoir du do
   docker-compose up -d 
 ```
 
+## Accéder au conteneur PostgreSQL 
+```bash
+  docker-compose exec postgres psql -U airflow -d airflow
+```
+
