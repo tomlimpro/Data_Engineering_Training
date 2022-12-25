@@ -92,6 +92,33 @@ Pour démarrer les services d'Airflow, il faut se placer dans le repertoir du do
   docker-compose up -d 
 ```
 
+## Accéder à un conteneur d'un service 
+
+Entrer dans le conteneur du service webserver et ouvrir un terminal dans le conteneur.
+```bash
+  docker-compose exec webserver bash
+```
+
+Pour installer un module python, il faut se connecter en tant que 'airflow'. 
+Lorsqu'on se retrouve dans le conteneur webserver, on utilise cette commande pour changer d'utilisateur :
+
+```bash
+  su - airflow
+```
+
+Ensuite on peut installer les modules qu'on souhaite 
+
+```bash
+  pip install ******
+```
+
+Remarques : Problème avec le module xmltodict => j'ai du installer dans le conteneur scheduler pour faire fonctionner
+
+Entrer dans le conteneur du service scheduler et ouvrir un terminal dans le conteneur.
+```bash
+  docker-compose exec scheduler bash
+```
+
 ## Accéder au conteneur PostgreSQL 
 ```bash
   docker-compose exec postgres psql -U airflow -d airflow
