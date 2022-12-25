@@ -1,7 +1,7 @@
 
 # Airflow
 
-Airflow est un outil de planification de tâches et de flux de travail qui vous permet de planifier, 
+Airflow est un outil de planification de tâches et de flux de travail qui nous permet de planifier, 
 de suivre et de surveiller l'exécution de tâches de manière automatisée. 
 Il est conçu pour être facile à utiliser, scalable et fiable.
 
