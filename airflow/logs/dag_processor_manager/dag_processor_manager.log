@@ -24831,3 +24831,780 @@ File Path                                              PID  Runtime      # DAGs 
 /opt/airflow/dags/tutorial.py                                                 1           0  0.11s           2022-12-26T19:45:07
 /opt/airflow/dags/podcast_summer/podcast_summer2.py    352  0.01s             1           0  0.17s           2022-12-26T19:45:07
 ================================================================================
+[2022-12-26 19:46:07,984] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        370  0.00s             1           0  0.12s           2022-12-26T19:45:37
+/opt/airflow/dags/tutorial.py                                                 1           0  0.11s           2022-12-26T19:45:37
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    367  0.01s             1           0  0.15s           2022-12-26T19:45:37
+================================================================================
+[2022-12-26 19:46:34,347] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2022-12-26 19:46:34,472] {manager.py:687} INFO - There are 3 files in /opt/airflow/dags
+[2022-12-26 19:46:38,530] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        385  0.00s             1           0  0.14s           2022-12-26T19:46:08
+/opt/airflow/dags/tutorial.py                                                 1           0  0.11s           2022-12-26T19:46:08
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    382  0.01s             1           0  0.16s           2022-12-26T19:46:08
+================================================================================
+[2022-12-26 19:47:08,943] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        399  0.00s             1           0  0.13s           2022-12-26T19:46:38
+/opt/airflow/dags/tutorial.py                                                 1           0  0.11s           2022-12-26T19:46:38
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    397  0.01s             1           0  0.16s           2022-12-26T19:46:38
+================================================================================
+[2022-12-26 19:47:39,317] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        415  0.00s             1           0  0.12s           2022-12-26T19:47:09
+/opt/airflow/dags/tutorial.py                                                 1           0  0.11s           2022-12-26T19:47:09
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    412  0.01s             1           0  0.15s           2022-12-26T19:47:09
+================================================================================
+[2022-12-26 19:48:09,676] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        430  0.00s             1           0  0.11s           2022-12-26T19:47:39
+/opt/airflow/dags/tutorial.py                                                 1           0  0.10s           2022-12-26T19:47:39
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    427  0.01s             1           0  0.13s           2022-12-26T19:47:39
+================================================================================
+[2022-12-26 19:48:40,044] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        445  0.00s             1           0  0.11s           2022-12-26T19:48:09
+/opt/airflow/dags/tutorial.py                                                 1           0  0.10s           2022-12-26T19:48:09
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    442  0.01s             1           0  0.14s           2022-12-26T19:48:09
+================================================================================
+[2022-12-26 19:49:10,402] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        460  0.00s             1           0  0.11s           2022-12-26T19:48:40
+/opt/airflow/dags/tutorial.py                                                 1           0  0.10s           2022-12-26T19:48:40
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    457  0.01s             1           0  0.14s           2022-12-26T19:48:40
+================================================================================
+[2022-12-26 19:49:40,786] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        475  0.00s             1           0  0.13s           2022-12-26T19:49:10
+/opt/airflow/dags/tutorial.py                                                 1           0  0.11s           2022-12-26T19:49:10
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    472  0.01s             1           0  0.15s           2022-12-26T19:49:10
+================================================================================
+[2022-12-26 19:50:11,186] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        490  0.00s             1           0  0.12s           2022-12-26T19:49:40
+/opt/airflow/dags/tutorial.py                                                 1           0  0.11s           2022-12-26T19:49:41
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    487  0.01s             1           0  0.16s           2022-12-26T19:49:40
+================================================================================
+[2022-12-26 19:50:41,572] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        505  0.00s             1           0  0.12s           2022-12-26T19:50:11
+/opt/airflow/dags/tutorial.py                                                 1           0  0.11s           2022-12-26T19:50:11
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    502  0.01s             1           0  0.14s           2022-12-26T19:50:11
+================================================================================
+[2022-12-26 19:51:12,007] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        520  0.01s             1           0  0.15s           2022-12-26T19:50:41
+/opt/airflow/dags/tutorial.py                                                 1           0  0.13s           2022-12-26T19:50:41
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    517  0.01s             1           0  0.18s           2022-12-26T19:50:41
+================================================================================
+[2022-12-26 19:51:34,353] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2022-12-26 19:51:34,480] {manager.py:687} INFO - There are 3 files in /opt/airflow/dags
+[2022-12-26 19:51:42,567] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        535  0.00s             1           0  0.14s           2022-12-26T19:51:12
+/opt/airflow/dags/tutorial.py                                                 1           0  0.12s           2022-12-26T19:51:12
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    532  0.01s             1           0  0.18s           2022-12-26T19:51:12
+================================================================================
+[2022-12-26 19:52:12,955] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        550  0.00s             1           0  0.11s           2022-12-26T19:51:42
+/opt/airflow/dags/tutorial.py                                                 1           0  0.10s           2022-12-26T19:51:42
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    547  0.03s             1           0  0.14s           2022-12-26T19:51:42
+================================================================================
+[2022-12-26 19:52:43,322] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        565  0.00s             1           0  0.11s           2022-12-26T19:52:13
+/opt/airflow/dags/tutorial.py                                                 1           0  0.10s           2022-12-26T19:52:13
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    562  0.01s             1           0  0.17s           2022-12-26T19:52:13
+================================================================================
+[2022-12-26 19:53:13,696] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        580  0.00s             1           0  0.12s           2022-12-26T19:52:43
+/opt/airflow/dags/tutorial.py                                                 1           0  0.10s           2022-12-26T19:52:43
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    577  0.01s             1           0  0.14s           2022-12-26T19:52:43
+================================================================================
+[2022-12-26 19:53:44,100] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        595  0.00s             1           0  0.14s           2022-12-26T19:53:13
+/opt/airflow/dags/tutorial.py                                                 1           0  0.12s           2022-12-26T19:53:13
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    592  0.01s             1           0  0.16s           2022-12-26T19:53:13
+================================================================================
+[2022-12-26 19:54:14,472] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        610  0.00s             1           0  0.12s           2022-12-26T19:53:44
+/opt/airflow/dags/tutorial.py                                                 1           0  0.10s           2022-12-26T19:53:44
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    607  0.01s             1           0  0.14s           2022-12-26T19:53:44
+================================================================================
+[2022-12-26 19:54:44,856] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        625  0.00s             1           0  0.12s           2022-12-26T19:54:14
+/opt/airflow/dags/tutorial.py                                                 1           0  0.11s           2022-12-26T19:54:14
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    622  0.01s             1           0  0.15s           2022-12-26T19:54:14
+================================================================================
+[2022-12-26 19:55:15,234] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        640  0.00s             1           0  0.11s           2022-12-26T19:54:44
+/opt/airflow/dags/tutorial.py                                                 1           0  0.10s           2022-12-26T19:54:45
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    637  0.01s             1           0  0.14s           2022-12-26T19:54:44
+================================================================================
+[2022-12-26 19:55:45,608] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        655  0.00s             1           0  0.12s           2022-12-26T19:55:15
+/opt/airflow/dags/tutorial.py                                                 1           0  0.10s           2022-12-26T19:55:15
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    652  0.01s             1           0  0.14s           2022-12-26T19:55:15
+================================================================================
+[2022-12-26 19:56:16,005] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        670  0.01s             1           0  0.11s           2022-12-26T19:55:45
+/opt/airflow/dags/tutorial.py                                                 1           0  0.11s           2022-12-26T19:55:45
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    667  0.01s             1           0  0.16s           2022-12-26T19:55:45
+================================================================================
+[2022-12-26 19:56:34,409] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2022-12-26 19:56:34,508] {manager.py:687} INFO - There are 3 files in /opt/airflow/dags
+[2022-12-26 19:56:46,430] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        685  0.00s             1           0  0.17s           2022-12-26T19:56:16
+/opt/airflow/dags/tutorial.py                                                 1           0  0.13s           2022-12-26T19:56:16
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    682  0.01s             1           0  0.20s           2022-12-26T19:56:16
+================================================================================
+[2022-12-26 19:57:16,791] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        700  0.00s             1           0  0.12s           2022-12-26T19:56:46
+/opt/airflow/dags/tutorial.py                                                 1           0  0.11s           2022-12-26T19:56:46
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    697  0.01s             1           0  0.14s           2022-12-26T19:56:46
+================================================================================
+[2022-12-26 19:57:47,181] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        729  0.00s             1           0  0.11s           2022-12-26T19:57:16
+/opt/airflow/dags/tutorial.py                                                 1           0  0.12s           2022-12-26T19:57:17
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    726  0.01s             1           0  0.15s           2022-12-26T19:57:16
+================================================================================
+[2022-12-26 19:58:17,559] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        750  0.00s             1           0  0.12s           2022-12-26T19:57:47
+/opt/airflow/dags/tutorial.py                                                 1           0  0.10s           2022-12-26T19:57:47
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    747  0.01s             1           0  0.14s           2022-12-26T19:57:47
+================================================================================
+[2022-12-26 19:58:47,991] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        765  0.01s             1           0  0.13s           2022-12-26T19:58:17
+/opt/airflow/dags/tutorial.py                                                 1           0  0.13s           2022-12-26T19:58:17
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    762  0.01s             1           0  0.18s           2022-12-26T19:58:17
+================================================================================
+[2022-12-26 19:59:18,408] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        780  0.00s             1           0  0.15s           2022-12-26T19:58:48
+/opt/airflow/dags/tutorial.py                                                 1           0  0.11s           2022-12-26T19:58:48
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    777  0.01s             1           0  0.17s           2022-12-26T19:58:48
+================================================================================
+[2022-12-26 19:59:48,831] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        795  0.00s             1           0  0.13s           2022-12-26T19:59:18
+/opt/airflow/dags/tutorial.py                                                 1           0  0.13s           2022-12-26T19:59:18
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    792  0.01s             1           0  0.18s           2022-12-26T19:59:18
+================================================================================
+[2022-12-26 20:00:19,209] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        810  0.00s             1           0  0.11s           2022-12-26T19:59:48
+/opt/airflow/dags/tutorial.py                                                 1           0  0.10s           2022-12-26T19:59:49
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    807  0.01s             1           0  0.14s           2022-12-26T19:59:48
+================================================================================
+[2022-12-26 20:00:49,611] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        825  0.00s             1           0  0.11s           2022-12-26T20:00:19
+/opt/airflow/dags/tutorial.py                                                 1           0  0.11s           2022-12-26T20:00:19
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    822  0.01s             1           0  0.15s           2022-12-26T20:00:19
+================================================================================
+[2022-12-26 20:01:19,995] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        840  0.00s             1           0  0.12s           2022-12-26T20:00:49
+/opt/airflow/dags/tutorial.py                                                 1           0  0.11s           2022-12-26T20:00:49
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    837  0.01s             1           0  0.15s           2022-12-26T20:00:49
+================================================================================
+[2022-12-26 20:01:35,250] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2022-12-26 20:01:35,359] {manager.py:687} INFO - There are 3 files in /opt/airflow/dags
+[2022-12-26 20:01:50,496] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        855  0.00s             1           0  0.11s           2022-12-26T20:01:20
+/opt/airflow/dags/tutorial.py                                                 1           0  0.10s           2022-12-26T20:01:20
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    852  0.01s             1           0  0.15s           2022-12-26T20:01:20
+================================================================================
+[2022-12-26 20:02:20,895] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        870  0.00s             1           0  0.13s           2022-12-26T20:01:50
+/opt/airflow/dags/tutorial.py                                                 1           0  0.13s           2022-12-26T20:01:50
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    867  0.01s             1           0  0.15s           2022-12-26T20:01:50
+================================================================================
+[2022-12-26 20:02:51,398] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        885  0.00s             1           0  0.13s           2022-12-26T20:02:21
+/opt/airflow/dags/tutorial.py                                                 1           0  0.20s           2022-12-26T20:02:21
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    882  0.01s             1           0  0.25s           2022-12-26T20:02:21
+================================================================================
+[2022-12-26 20:03:21,798] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        900  0.00s             1           0  0.12s           2022-12-26T20:02:51
+/opt/airflow/dags/tutorial.py                                                 1           0  0.11s           2022-12-26T20:02:51
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    897  0.01s             1           0  0.15s           2022-12-26T20:02:51
+================================================================================
+[2022-12-26 20:03:52,201] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        915  0.00s             1           0  0.12s           2022-12-26T20:03:21
+/opt/airflow/dags/tutorial.py                                                 1           0  0.12s           2022-12-26T20:03:22
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    912  0.01s             1           0  0.15s           2022-12-26T20:03:21
+================================================================================
+[2022-12-26 20:04:22,591] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        930  0.00s             1           0  0.12s           2022-12-26T20:03:52
+/opt/airflow/dags/tutorial.py                                                 1           0  0.11s           2022-12-26T20:03:52
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    927  0.01s             1           0  0.15s           2022-12-26T20:03:52
+================================================================================
+[2022-12-26 20:04:52,990] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        945  0.00s             1           0  0.13s           2022-12-26T20:04:22
+/opt/airflow/dags/tutorial.py                                                 1           0  0.10s           2022-12-26T20:04:22
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    942  0.01s             1           0  0.14s           2022-12-26T20:04:22
+================================================================================
+[2022-12-26 20:05:23,507] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        960  0.00s             1           0  0.12s           2022-12-26T20:04:53
+/opt/airflow/dags/tutorial.py                                                 1           0  0.18s           2022-12-26T20:04:53
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    957  0.01s             1           0  0.24s           2022-12-26T20:04:53
+================================================================================
+[2022-12-26 20:05:53,907] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        975  0.00s             1           0  0.15s           2022-12-26T20:05:23
+/opt/airflow/dags/tutorial.py                                                 1           0  0.11s           2022-12-26T20:05:23
+/opt/airflow/dags/podcast_summer/podcast_summer2.py    972  0.01s             1           0  0.17s           2022-12-26T20:05:23
+================================================================================
+[2022-12-26 20:06:24,389] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                        992  0.01s             1           0  0.12s           2022-12-26T20:05:54
+/opt/airflow/dags/tutorial.py                          995  0.00s             1           0  0.11s           2022-12-26T20:05:54
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.21s           2022-12-26T20:06:07
+================================================================================
+[2022-12-26 20:06:35,588] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2022-12-26 20:06:35,723] {manager.py:687} INFO - There are 3 files in /opt/airflow/dags
+[2022-12-26 20:06:54,908] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1014  0.01s             1           0  0.12s           2022-12-26T20:06:24
+/opt/airflow/dags/tutorial.py                         1017  0.00s             1           0  0.14s           2022-12-26T20:06:24
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.17s           2022-12-26T20:06:37
+================================================================================
+[2022-12-26 20:07:25,306] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1029  0.01s             1           0  0.16s           2022-12-26T20:06:55
+/opt/airflow/dags/tutorial.py                         1032  0.00s             1           0  0.15s           2022-12-26T20:06:55
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.18s           2022-12-26T20:07:08
+================================================================================
+[2022-12-26 20:07:55,684] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1044  0.01s             1           0  0.14s           2022-12-26T20:07:25
+/opt/airflow/dags/tutorial.py                         1047  0.00s             1           0  0.14s           2022-12-26T20:07:25
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.20s           2022-12-26T20:07:38
+================================================================================
+[2022-12-26 20:08:26,050] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1059  0.01s             1           0  0.14s           2022-12-26T20:07:55
+/opt/airflow/dags/tutorial.py                         1062  0.00s             1           0  0.14s           2022-12-26T20:07:55
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.18s           2022-12-26T20:08:09
+================================================================================
+[2022-12-26 20:08:56,461] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1081  0.01s             1           0  0.12s           2022-12-26T20:08:26
+/opt/airflow/dags/tutorial.py                         1084  0.00s             1           0  0.11s           2022-12-26T20:08:26
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.25s           2022-12-26T20:08:39
+================================================================================
+[2022-12-26 20:09:26,813] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1096  0.01s             1           0  0.13s           2022-12-26T20:08:56
+/opt/airflow/dags/tutorial.py                         1099  0.00s             1           0  0.11s           2022-12-26T20:08:56
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.19s           2022-12-26T20:09:09
+================================================================================
+[2022-12-26 20:09:57,192] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1111  0.01s             1           0  0.13s           2022-12-26T20:09:26
+/opt/airflow/dags/tutorial.py                         1114  0.00s             1           0  0.14s           2022-12-26T20:09:26
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.17s           2022-12-26T20:09:40
+================================================================================
+[2022-12-26 20:10:27,516] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1126  0.01s             1           0  0.11s           2022-12-26T20:09:57
+/opt/airflow/dags/tutorial.py                         1129  0.01s             1           0  0.11s           2022-12-26T20:09:57
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.18s           2022-12-26T20:10:10
+================================================================================
+[2022-12-26 20:10:57,887] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1141  0.01s             1           0  0.13s           2022-12-26T20:10:27
+/opt/airflow/dags/tutorial.py                         1144  0.01s             1           0  0.13s           2022-12-26T20:10:27
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.17s           2022-12-26T20:10:40
+================================================================================
+[2022-12-26 20:11:28,281] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1156  0.01s             1           0  0.19s           2022-12-26T20:10:58
+/opt/airflow/dags/tutorial.py                         1159  0.00s             1           0  0.18s           2022-12-26T20:10:58
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.20s           2022-12-26T20:11:11
+================================================================================
+[2022-12-26 20:11:36,331] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2022-12-26 20:11:36,423] {manager.py:687} INFO - There are 3 files in /opt/airflow/dags
+[2022-12-26 20:11:58,616] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1171  0.01s             1           0  0.11s           2022-12-26T20:11:28
+/opt/airflow/dags/tutorial.py                         1174  0.00s             1           0  0.11s           2022-12-26T20:11:28
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.19s           2022-12-26T20:11:41
+================================================================================
+[2022-12-26 20:12:28,946] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1186  0.01s             1           0  0.12s           2022-12-26T20:11:58
+/opt/airflow/dags/tutorial.py                         1189  0.00s             1           0  0.11s           2022-12-26T20:11:58
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.19s           2022-12-26T20:12:11
+================================================================================
+[2022-12-26 20:12:59,281] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1201  0.01s             1           0  0.11s           2022-12-26T20:12:29
+/opt/airflow/dags/tutorial.py                         1204  0.00s             1           0  0.11s           2022-12-26T20:12:29
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.18s           2022-12-26T20:12:42
+================================================================================
+[2022-12-26 20:13:29,640] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1216  0.01s             1           0  0.13s           2022-12-26T20:12:59
+/opt/airflow/dags/tutorial.py                         1219  0.00s             1           0  0.12s           2022-12-26T20:12:59
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.14s           2022-12-26T20:13:12
+================================================================================
+[2022-12-26 20:14:00,002] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1231  0.01s             1           0  0.12s           2022-12-26T20:13:29
+/opt/airflow/dags/tutorial.py                         1234  0.00s             1           0  0.13s           2022-12-26T20:13:29
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.14s           2022-12-26T20:13:42
+================================================================================
+[2022-12-26 20:14:30,367] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1246  0.01s             1           0  0.13s           2022-12-26T20:14:00
+/opt/airflow/dags/tutorial.py                         1249  0.00s             1           0  0.12s           2022-12-26T20:14:00
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.19s           2022-12-26T20:14:13
+================================================================================
+[2022-12-26 20:15:00,725] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1261  0.01s             1           0  0.12s           2022-12-26T20:14:30
+/opt/airflow/dags/tutorial.py                         1264  0.00s             1           0  0.12s           2022-12-26T20:14:30
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.15s           2022-12-26T20:14:43
+================================================================================
+[2022-12-26 20:15:31,114] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1276  0.02s             1           0  0.14s           2022-12-26T20:15:00
+/opt/airflow/dags/tutorial.py                         1279  0.00s             1           0  0.14s           2022-12-26T20:15:00
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.22s           2022-12-26T20:15:14
+================================================================================
+[2022-12-26 20:16:01,506] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1291  0.02s             1           0  0.15s           2022-12-26T20:15:31
+/opt/airflow/dags/tutorial.py                         1294  0.01s             1           0  0.14s           2022-12-26T20:15:31
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.19s           2022-12-26T20:15:44
+================================================================================
+[2022-12-26 20:16:31,912] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1306  0.01s             1           0  0.17s           2022-12-26T20:16:01
+/opt/airflow/dags/tutorial.py                         1309  0.01s             1           0  0.16s           2022-12-26T20:16:01
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.14s           2022-12-26T20:16:14
+================================================================================
+[2022-12-26 20:16:37,046] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2022-12-26 20:16:37,182] {manager.py:687} INFO - There are 3 files in /opt/airflow/dags
+[2022-12-26 20:17:02,416] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1321  0.01s             1           0  0.23s           2022-12-26T20:16:32
+/opt/airflow/dags/tutorial.py                         1324  0.00s             1           0  0.21s           2022-12-26T20:16:32
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.22s           2022-12-26T20:16:45
+================================================================================
+[2022-12-26 20:17:32,777] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1336  0.01s             1           0  0.14s           2022-12-26T20:17:02
+/opt/airflow/dags/tutorial.py                         1339  0.00s             1           0  0.12s           2022-12-26T20:17:02
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.17s           2022-12-26T20:17:15
+================================================================================
+[2022-12-26 20:18:03,147] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1351  0.01s             1           0  0.12s           2022-12-26T20:17:32
+/opt/airflow/dags/tutorial.py                         1354  0.00s             1           0  0.12s           2022-12-26T20:17:32
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.21s           2022-12-26T20:17:46
+================================================================================
+[2022-12-26 20:18:33,531] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1366  0.01s             1           0  0.13s           2022-12-26T20:18:03
+/opt/airflow/dags/tutorial.py                         1369  0.01s             1           0  0.13s           2022-12-26T20:18:03
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.21s           2022-12-26T20:18:16
+================================================================================
+[2022-12-26 20:19:03,921] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1381  0.01s             1           0  0.14s           2022-12-26T20:18:33
+/opt/airflow/dags/tutorial.py                         1384  0.01s             1           0  0.14s           2022-12-26T20:18:33
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.21s           2022-12-26T20:18:43
+================================================================================
+[2022-12-26 20:19:34,308] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1405  0.01s             1           0  0.15s           2022-12-26T20:19:04
+/opt/airflow/dags/tutorial.py                         1408  0.00s             1           0  0.12s           2022-12-26T20:19:04
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.16s           2022-12-26T20:19:14
+================================================================================
+[2022-12-26 20:20:04,639] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1420  0.01s             1           0  0.11s           2022-12-26T20:19:34
+/opt/airflow/dags/tutorial.py                         1423  0.00s             1           0  0.11s           2022-12-26T20:19:34
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.14s           2022-12-26T20:19:44
+================================================================================
+[2022-12-26 20:20:34,981] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1435  0.01s             1           0  0.13s           2022-12-26T20:20:04
+/opt/airflow/dags/tutorial.py                         1438  0.00s             1           0  0.13s           2022-12-26T20:20:04
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.14s           2022-12-26T20:20:14
+================================================================================
+[2022-12-26 20:21:05,336] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1450  0.01s             1           0  0.12s           2022-12-26T20:20:35
+/opt/airflow/dags/tutorial.py                         1453  0.00s             1           0  0.12s           2022-12-26T20:20:35
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.15s           2022-12-26T20:20:45
+================================================================================
+[2022-12-26 20:21:35,689] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1465  0.01s             1           0  0.12s           2022-12-26T20:21:05
+/opt/airflow/dags/tutorial.py                         1468  0.00s             1           0  0.11s           2022-12-26T20:21:05
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.14s           2022-12-26T20:21:15
+================================================================================
+[2022-12-26 20:21:37,755] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2022-12-26 20:21:37,858] {manager.py:687} INFO - There are 3 files in /opt/airflow/dags
+[2022-12-26 20:22:06,153] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1480  0.04s             1           0  0.13s           2022-12-26T20:21:35
+/opt/airflow/dags/tutorial.py                         1483  0.01s             1           0  0.13s           2022-12-26T20:21:35
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.24s           2022-12-26T20:21:46
+================================================================================
+[2022-12-26 20:22:36,561] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1495  0.01s             1           0  0.19s           2022-12-26T20:22:06
+/opt/airflow/dags/tutorial.py                         1496  0.00s             1           0  0.16s           2022-12-26T20:22:06
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.15s           2022-12-26T20:22:16
+================================================================================
+[2022-12-26 20:23:06,942] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1510  0.01s             1           0  0.14s           2022-12-26T20:22:36
+/opt/airflow/dags/tutorial.py                         1513  0.00s             1           0  0.15s           2022-12-26T20:22:36
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.17s           2022-12-26T20:22:46
+================================================================================
+[2022-12-26 20:23:37,313] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1534  0.01s             1           0  0.13s           2022-12-26T20:23:07
+/opt/airflow/dags/tutorial.py                         1537  0.00s             1           0  0.13s           2022-12-26T20:23:07
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.17s           2022-12-26T20:23:17
+================================================================================
+[2022-12-26 20:24:07,704] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                       1549  0.01s             1           0  0.16s           2022-12-26T20:23:37
+/opt/airflow/dags/tutorial.py                         1552  0.00s             1           0  0.16s           2022-12-26T20:23:37
+/opt/airflow/dags/podcast_summer/podcast_summer2.py                           1           0  0.17s           2022-12-26T20:23:47
+================================================================================
+[2022-12-26 20:24:31,336] {manager.py:455} INFO - Exiting gracefully upon receiving signal 15

@@ -1,11 +1,12 @@
 from airflow.decorators import dag, task
 import pendulum
-import requests
+import requests 
 import xmltodict
+import os
 
 # Interaction avec la database postgresql
 from airflow.providers.postgres.operators.postgres import PostgresOperator
-
+from airflow.providers.postgres.hooks.postgres import PostgresHook
 @dag(
     dag_id='podcast_summary2',
     schedule_interval='@daily',
@@ -28,6 +29,7 @@ def podcast_summary2():
             )
         """,
     )
+
     """
     1ère tache : Get episodes
     """
@@ -42,4 +44,31 @@ def podcast_summary2():
     podcast_episodes = get_episodes()
     # ici on run create_database() avant de get_episodes()
     create_database.set_downstream(podcast_episodes)
+
+    # Import de postgres.hook
+    @task()
+    def load_episodes(episodes):
+        hook = PostgresHook(postgres_conn_id='postgres_localhost')
+        stored = hook.get_pandas_df("SELECT * from episodes;")
+        new_episodes = []
+        for episode in episodes:
+            if episode["link"] not in stored["link"].values:
+                filename = f"{episode['link'].split('/')[-1]}.mp3"
+                new_episodes.append([episode["link"],episode["title"],episode["pubDate"], episode["description"], filename])
+        hook.insert_rows(table="episodes", rows=new_episodes, target_fields=["link", "title","published","description","filename"])
+    
+    load_episodes(podcast_episodes)
+
+    @task()
+    def download_episodes(episodes):
+        for episode in episodes:
+            filename = f"{episode['link'].split('/')[-1]}.mp3"
+            audio_path = os.path.join("episodes",filename)
+            if not os.path.exists(audio_path):
+                print(f"Downloading {filename}")
+                audio = requests.get(episode["enclosure"]["@url"])
+                with open(audio_path, "wb+") as f:
+                    f.write(audio.content)
+    
+    download_episodes(podcast_episodes)
 summary = podcast_summary2()
