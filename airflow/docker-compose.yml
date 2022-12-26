@@ -32,10 +32,11 @@ services:
   # définit un service PostgreSQL utilisé comme base de données par Airflow. Ce service expose le porte 5432 du conteneur sur le port 5434 de la machine hôte 
   # et utilise un healthcheck pour vérifier que la base de données est prête à être utilisée. 
   postgres:
+    <<: *common
     image: postgres:13
     container_name: postgres
     ports:
-      - "5434:5432"
+      - "5432:5432"
     healthcheck:
       test: ["CMD", "pg_isready", "-U", "airflow"]
       interval: 5s
